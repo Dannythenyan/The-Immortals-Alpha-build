@@ -1,0 +1,32 @@
+{
+  "manifest_version": "0.2",
+  "name": "Unreal Engine Pro Tools",
+  "version": "1.1.0",
+  "description": "Custom tools to interact with UE5.",
+  "author": {
+    "name": "Roly BlueprintsLab",
+    "email": "blueprints.lab@gamedevcore.com",
+    "url": "https://www.fab.com/sellers/BlueprintsLab"
+  },
+  "homepage": "https://www.fab.com/sellers/BlueprintsLab",
+  "documentation": "https://www.gamedevcore.com/docs/bpgenerator-ultimate",
+  "support": "https://discord.gg/w65xMuxEhb",
+  "server": {
+    "type": "python",
+    "entry_point": "__init__.py",
+    "mcp_config": {
+      "command": "python",
+      "args": [
+        "${__dirname}/__init__.py",
+        "--server-name",
+        "unreal-handshake"
+      ]
+    }
+  },
+  "keywords": [
+    "unreal engine",
+    "blueprint",
+    "gamedev"
+  ],
+  "license": "MIT"
+}
