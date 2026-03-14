@@ -54,6 +54,10 @@
 		{
 			"Name": "LandscapePatch",
 			"Enabled": true
+		},
+		{
+			"Name": "ChaosMover",
+			"Enabled": true
 		}
 	]
 }
